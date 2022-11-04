@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Chashabad</string>
+    <string name="guide_text">Tap on an Image</string>
+    <string name="lang_btn_text">বাংলা</string>
+    <string name="title_activity_seed">Seeds</string>
+    <string name="seed_text">
+        "Seeds absorb water and nutrients from soil."
+        "For germination of seeds moisture is very important."
+        "Moisture helps to soften the seed shell. It also forms soluble nutrient that can be absorbed by the sprout by combining with the protein or starch within the seed."
+    </string>
+    <string name="seedling_text">
+    	"Germination of seeds occur usually in 3 to 10 days after sowing."
+        "But it can take as long as 21 days too.\n\n"
+
+        "After sprouting 2 leaves appear from the inside of the seed that are called cotyledon."
+        "The plant starts photosynthesis using these early leaves."
+    </string>
+    <string name="vine_text">
+        "In this stage cucumber vines and leaves develop."
+        "When the vines get stronger and longer, they should be attached to solid trellis.\n\n"
+
+        "New leaves will come out of the plant continuously. Tendrils will grow for getting support by wrapping themselves around whatever nearby."
+    </string>
+    <string name="flower_text">
+        "About 35 days after sprouting, male flowers begin to appear on the plant. And then after 10 days female flowers do so.\n\n"
+
+        "Directly behind a female flower there is a bulge that seems to be an immature cucumber. It's the ovary of the flower and will turn into a cucumber in 7 to 12 days."
+    </string>
+    <string name="fruit_text">
+        "Cucumber production spans from 4 to 12 weeks."
+        "For maximum harvest, on-time picking of cucumbers is important."
+        "Cucumbers should be picked before their being matured.\n\n"
+
+        "After being fully matured in vine, a cucumber will prompt the remaining part of the plant to slow down cucumber production."
+        "It means cucumber yields that are fewer."
+    </string>
+    <string name="cucumber_text">
+        "Usually, when the diameter of the cucumber is 2 inches and length is 5 to 8 inches, they should be picked.\n\n"
+
+        "After germination, they can be harvested from 48 to 76 days"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seedling">Seedlings</string>
+    <string name="title_activity_vine">Vines</string>
+    <string name="title_activity_flower">Flowers</string>
+    <string name="title_activity_fruit">Fruits</string>
+    <string name="title_activity_cucumber">Cucumber</string>
+    <string name="title_text">Cucumber Cultivation Cycle</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chashabad">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chashabad"
+        tools:targetApi="31">
+        <activity
+            android:name=".CucumberActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cucumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".FruitActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fruit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".FlowerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_flower"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".VineActivity"
+            android:exported="false"
+            android:label="@string/title_activity_vine"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".SeedlingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seedling"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".SeedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seed"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Chashabad.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

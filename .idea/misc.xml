@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/drawable_cucumber.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/ic_baseline_language_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.12" />
+        <entry key="app/src/main/res/drawable/launche_screen.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/launcher_screen.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.12382864792503347" />
+        <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.12773224043715847" />
+        <entry key="app/src/main/res/layout/activity_cucumber.xml" value="0.23589164785553046" />
+        <entry key="app/src/main/res/layout/activity_flower.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_fruit.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_launcher.xml" value="0.16847826086956522" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_seed.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_seedling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_vine.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/cucumber_content_scrolling.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/flower_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/fruit_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/seed_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/seedling_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.12712895377128955" />
+        <entry key="app/src/main/res/layout/vine_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/menu/enu_main.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/menu_cucumber.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/menu_flower.xml" value="0.22" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/menu_seed.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
