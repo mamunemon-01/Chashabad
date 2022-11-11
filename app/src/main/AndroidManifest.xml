@@ -20,35 +20,122 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
         <activity
-            android:name=".FruitActivity"
+            android:name=".CucumberFruitActivity"
             android:exported="false"
             android:label="@string/title_activity_fruit"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
         <activity
-            android:name=".FlowerActivity"
+            android:name=".CucumberFlowerActivity"
             android:exported="false"
             android:label="@string/title_activity_flower"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
         <activity
-            android:name=".VineActivity"
+            android:name=".CucumberVineActivity"
             android:exported="false"
             android:label="@string/title_activity_vine"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
         <activity
-            android:name=".SeedlingActivity"
+            android:name=".CucumberSeedlingActivity"
             android:exported="false"
             android:label="@string/title_activity_seedling"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
         <activity
-            android:name=".SeedActivity"
+            android:name=".CucumberSeedActivity"
             android:exported="false"
             android:label="@string/title_activity_seed"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".MainCucumberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad"/>
+        <activity
+            android:name=".TomatoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cucumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".TomatoFruitActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fruit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".TomatoFlowerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_flower"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".TomatoVineActivity"
+            android:exported="false"
+            android:label="@string/title_activity_vine"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".TomatoSeedlingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seedling"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".TomatoSeedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seed"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".MainTomatoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad"/>
+        <activity
+            android:name=".CarrotNonRootcutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cucumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".CarrotRootcutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fruit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".CarrotActivity"
+            android:exported="false"
+            android:label="@string/title_activity_flower"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".CarrotPlantActivity"
+            android:exported="false"
+            android:label="@string/title_activity_vine"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".CarrotSeedlingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seedling"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".CarrotSeedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_seed"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad.NoActionBar" />
+        <activity
+            android:name=".MainCarrotActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Chashabad"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -21,15 +21,18 @@ import java.util.Objects;
 import kotlinx.coroutines.flow.Flow;
 
 public class MainActivity extends AppCompatActivity {
-    TextView titleText, seed_fig_name, seedling_fig_name, vine_fig_name, flower_fig_name, fruit_fig_name, cucumber_fig_name, guideText;
-    Button langBtn;
-    ImageButton btn1, btn2, btn3, btn4, btn5, btn6;
+    TextView titleText;
+    Button langBtn, cucumberBtn, tomatoBtn, carrotBtn;
     Context context;
     Resources resources;
+    //static SharedPreferences sharedPref;
+    //static boolean once_appeared = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //if(!once_appeared)
         SharedPreferences sharedPref = MainActivity.this.getPreferences(Context.MODE_PRIVATE);
+        //once_appeared = true;
         String locale = sharedPref.getString("language", "bn");
 
         context = LocaleHelper.setLocale(MainActivity.this, locale);
@@ -52,34 +55,19 @@ public class MainActivity extends AppCompatActivity {
 
         // text and button view reference
         titleText = (TextView) findViewById(R.id.title_textView);
-        seed_fig_name = (TextView) findViewById(R.id.seed_fig_name);
-        seedling_fig_name = (TextView) findViewById(R.id.seedling_fig_name);
-        vine_fig_name = (TextView) findViewById(R.id.vine_fig_name);
-        flower_fig_name = (TextView) findViewById(R.id.flower_fig_name);
-        fruit_fig_name = (TextView) findViewById(R.id.fruit_fig_name);
-        cucumber_fig_name = (TextView) findViewById(R.id.cucumber_fig_name);
-        guideText = (TextView) findViewById(R.id.guide_textView);
         langBtn = findViewById(R.id.lang_button);
-        btn1 = findViewById(R.id.button);
-        btn2 = findViewById(R.id.button2);
-        btn3 = findViewById(R.id.button3);
-        btn4 = findViewById(R.id.button4);
-        btn5 = findViewById(R.id.button5);
-        btn6 = findViewById(R.id.button6);
+        cucumberBtn = findViewById(R.id.cucumber_button);
+        tomatoBtn = findViewById(R.id.tomato_button);
+        carrotBtn = findViewById(R.id.carrot_button);
 
         resources = context.getResources();
 
         titleText.setText(resources.getString(R.string.title_text));
-        seed_fig_name.setText(resources.getString(R.string.title_activity_seed));
-        seedling_fig_name.setText(resources.getString(R.string.title_activity_seedling));
-        vine_fig_name.setText(resources.getString(R.string.title_activity_vine));
-        flower_fig_name.setText(resources.getString(R.string.title_activity_flower));
-        fruit_fig_name.setText(resources.getString(R.string.title_activity_fruit));
-        cucumber_fig_name.setText(resources.getString(R.string.title_activity_cucumber));
-        guideText.setText(resources.getString(R.string.guide_text));
-        //guideText.setText(getResources().getString(R.string.guide_text));
         langBtn.setText(resources.getString(R.string.lang_btn_text));
         //langBtn.setText(getResources().getString(R.string.lang_btn_text));
+        cucumberBtn.setText(resources.getString(R.string.title_activity_cucumber));
+        tomatoBtn.setText(resources.getString(R.string.title_activity_tomato));
+        carrotBtn.setText(resources.getString(R.string.title_activity_carrot));
 
         SharedPreferences.Editor editor = sharedPref.edit();
 
@@ -112,75 +100,36 @@ public class MainActivity extends AppCompatActivity {
                 resources = context.getResources();
 
                 titleText.setText(resources.getString(R.string.title_text));
-                seed_fig_name.setText(resources.getString(R.string.title_activity_seed));
-                seedling_fig_name.setText(resources.getString(R.string.title_activity_seedling));
-                vine_fig_name.setText(resources.getString(R.string.title_activity_vine));
-                flower_fig_name.setText(resources.getString(R.string.title_activity_flower));
-                fruit_fig_name.setText(resources.getString(R.string.title_activity_fruit));
-                cucumber_fig_name.setText(resources.getString(R.string.title_activity_cucumber));
-                guideText.setText(resources.getString(R.string.guide_text));
-                //guideText.setText(getResources().getString(R.string.guide_text));
                 langBtn.setText(resources.getString(R.string.lang_btn_text));
                 //langBtn.setText(getResources().getString(R.string.lang_btn_text));
-
+                cucumberBtn.setText(resources.getString(R.string.title_activity_cucumber));
+                tomatoBtn.setText(resources.getString(R.string.title_activity_tomato));
+                carrotBtn.setText(resources.getString(R.string.title_activity_carrot));
 
                 toolbar.setTitle(getResources().getText(R.string.app_name));
 
-                /*
-                Toolbar thetoolbar = (Toolbar) findViewById(R.id.toolbar);
-                thetoolbar.setTitle(getResources().getText(R.string.app_name));
-
-                btn1.setText(resources.getString(R.string.b1_text));
-                btn2.setText(resources.getString(R.string.b2_text));
-                btn3.setText(resources.getString(R.string.b3_text));
-                btn4.setText(resources.getString(R.string.b4_text));
-                btn5.setText(resources.getString(R.string.b5_text));
-                btn6.setText(resources.getString(R.string.b6_text));
-                */
             }
         });
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        cucumberBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SeedActivity.class));
+                startActivity(new Intent(MainActivity.this, MainCucumberActivity.class));
             }
         });
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        tomatoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SeedlingActivity.class));
+                startActivity(new Intent(MainActivity.this, MainTomatoActivity.class));
             }
         });
 
-        btn3.setOnClickListener(new View.OnClickListener() {
+        carrotBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, VineActivity.class));
+                startActivity(new Intent(MainActivity.this, MainCarrotActivity.class));
             }
         });
-
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, FlowerActivity.class));
-            }
-        });
-
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, FruitActivity.class));
-            }
-        });
-
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, CucumberActivity.class));
-            }
-        });
-
     }
 }

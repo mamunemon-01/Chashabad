@@ -12,20 +12,47 @@
         <entry key="app/src/main/res/drawable/launcher_screen.xml" value="0.22" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.12382864792503347" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.12773224043715847" />
+        <entry key="app/src/main/res/layout/activity_carrot.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_carrot_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_cucumber.xml" value="0.23589164785553046" />
+        <entry key="app/src/main/res/layout/activity_cucumber_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_flower.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_flower_tomato.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/activity_fruit.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_fruit_tomato.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/activity_launcher.xml" value="0.16847826086956522" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_plant_carrot.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_rootcut_carrot.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_rootcut_non_carrot.xml" value="0.18659420289855072" />
         <entry key="app/src/main/res/layout/activity_seed.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_seed_carrot.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_seed_tomato.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/activity_seedling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_seedling_carrot.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_seedling_tomato.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/activity_tomato.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tomato_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vine.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_vine_tomato.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/carrot_content_scrolling.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/carrot_non_rootcut_content_scrolling.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/carrot_plant_content_scrolling.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/carrot_rootcut_content_scrolling.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/carrot_seed_content_scrolling.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/carrot_seedling_content_scrolling.xml" value="0.18659420289855072" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout/cucumber_content_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout/flower_content_scrolling.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/fruit_content_scrolling.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/seed_content_scrolling.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/seedling_content_scrolling.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/tomato_content_scrolling.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/tomato_flower_content_scrolling.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/tomato_fruit_content_scrolling.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/tomato_seed_content_scrolling.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/tomato_seedling_content_scrolling.xml" value="0.17753623188405798" />
+        <entry key="app/src/main/res/layout/tomato_vine_content_scrolling.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.12712895377128955" />
         <entry key="app/src/main/res/layout/vine_content_scrolling.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/menu/enu_main.xml" value="0.5" />
