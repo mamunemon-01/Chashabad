@@ -175,6 +175,10 @@ public class MainTomatoActivity extends AppCompatActivity{
                 startActivity(new Intent(MainTomatoActivity.this, TomatoActivity.class));
             }
         });
+    }
 
+    @Override
+    public void onBackPressed(){
+        startActivity(new Intent(MainTomatoActivity.this, MainActivity.class));
     }
 }

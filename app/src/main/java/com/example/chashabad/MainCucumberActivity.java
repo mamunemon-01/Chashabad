@@ -16,7 +16,7 @@ import java.util.Objects;
 
 public class MainCucumberActivity extends AppCompatActivity{
     TextView titleText, seed_fig_name, seedling_fig_name, vine_fig_name, flower_fig_name, fruit_fig_name, cucumber_fig_name, guideText;
-    Button langBtn;
+    //Button langBtn;
     ImageButton btn1, btn2, btn3, btn4, btn5, btn6;
     //Context cucumber_context;
     //Resources resources;
@@ -53,7 +53,7 @@ public class MainCucumberActivity extends AppCompatActivity{
         fruit_fig_name = (TextView) findViewById(R.id.fruit_fig_name);
         cucumber_fig_name = (TextView) findViewById(R.id.cucumber_fig_name);
         guideText = (TextView) findViewById(R.id.guide_textView);
-        langBtn = findViewById(R.id.lang_button);
+        //langBtn = findViewById(R.id.lang_button);
         btn1 = findViewById(R.id.button);
         btn2 = findViewById(R.id.button2);
         btn3 = findViewById(R.id.button3);
